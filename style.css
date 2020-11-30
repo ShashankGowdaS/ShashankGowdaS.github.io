@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 39, 162);
+    color: white;
+    margin:2px;
+   
+    
+}
+
+.mybrand{
+    font-size: 1.5rem;
+    margin:.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navlinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navlinks li {
+    list-style: none;
+}
+.navlinks li a {
+    text-decoration: none;
+    color: rgb(105, 90, 90);
+    padding: 1rem;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navlinks li:hover {
+    background-color: salmon;
+}
+
+#h1,#h2{
+    color:whitesmoke;
+    text-align: center;
+    padding:5px;
+    border:5px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+body{
+   margin: 0;
+   padding: 0;
+   background-image: url('labpic.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment:fixed;
+   background-color: gray;
+   
+ 
+}
+#p1{
+    
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-image:url('message box.jpg');
+    background-size: 100% 100%;
+    width: 300px;
+    height:300px;
+    color: rgb(77, 73, 76);
+    text-align: center;
+    
+}
+#p2{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orchid;
+    text-align: center;
+    padding:20px;
+   
+}
+#ul1,#ul2,#ul3{
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    padding-left: 200px;
+    padding: 100px;
+}
+
+#contact{
+    color:rgb(14, 106, 148);
+    background-image: url('contact.jpg');
+   
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    width:650px;
+    height:500px;
+   position: relative;
+   font-size:30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    text-align: center;
+    background-color: #333;
+    color: snow;
+    padding:30px ;
+    font-family: cursive;
+}
